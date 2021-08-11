@@ -18,21 +18,22 @@
   <h2>Ice cream flavor</h2>
   <div class="radio">
     <label>
-      <input type="radio" name="flavor" value="Vanilla">
+      <input type="radio" name="flavor" value="Vanilla" id="vanilla" class="vanilla">
       Vanilla
     </label>
   </div>  
   <div class="radio">
     <label>
-      <input type="radio" name="flavor" value="Chocolate">
+      <input type="radio" name="flavor" value="Chocolate" id="chocolate" class="chocolate">
       Chocolate
     </label>  
   </div>
   <div class="radio">
     <label>
-      <input type="radio" name="flavor" value="Cookie Dough">
+      <input type="radio" name="flavor" value="Cookie Dough" id="cookiedough" class="cookiedough">
       Cookie Dough
-    </label>  
+    </label> 
+    
   </div>
   <div class="form-group">
     <label for="born">Date of birth:</label>
@@ -42,9 +43,12 @@
     <label for="color">What is Your favorite color?</label>
     <input type="color" class="form-control" type="color">
   </div>
-
+  <button type="submit" class="btn" id="iceCreamButton">Submit</button> 
   
   
+  <div id="output">
+    <p>HERE</p>
+  </div>
   
 </body>
 </html>
